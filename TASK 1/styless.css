@@ -1,6 +1,7 @@
 body {
   background: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
   font-family: "Roboto";
+  margin: 0;
 }
 
 .container {
@@ -8,7 +9,7 @@ body {
   background-color: #ffffff;
   padding: 40px;
   border-radius: 10px;
-  width: 50%;
+  max-width: 800px; /* Set a maximum width to your container */
   margin: 0 auto;
 }
 
@@ -19,18 +20,10 @@ h1 {
   text-align: center;
 }
 
-h3 {
-  color: #000000;
-  font-size: 20px;
-  line-height: 20px;
-  text-align: center;
-  font-style: normal;
-}
-
 img {
   display: block;
   margin: 0 auto;
-  max-width: 590px;
+  max-width: 100%; /* Make images responsive */
   border-radius: 10px;
 }
 
@@ -71,11 +64,43 @@ button {
   color: #000000;
   font-size: 16px;
   display: block;
-
   text-align: center;
   font-style: italic;
 }
+
 hr {
   border: 0.1px solid #d8e9ed;
   line-height: 30px;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .read-more {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  button {
+    padding: 15px 20px;
+    font-size: 20px;
+    line-height: 15px;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
 }
