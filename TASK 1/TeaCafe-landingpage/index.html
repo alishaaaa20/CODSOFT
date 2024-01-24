@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea Shop</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="inner-width">
+        <div class="navbar-menu">
+          <a href="#home" class="link">Home</a>
+          <a href="#about" class="link">About</a>
+          <a href="" class="logo"><i class="fas fa-seedling"></i></a>
+          <a href="#Menu" class="link">Menu</a>
+          <a href="#review" class="link">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <section id="home">
+      <div class="inner-width">
+        <div class="content">
+          <h1><span>Ch</span>iya<br />र<span> M</span>a</h1>
+          <p>A bond that lasts forever.</p>
+          <button>Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h1><span>Ou</span>r Caf<span>e</span></h1>
+        <h3 style="text-align: center"><br />What makes our Tea special?</h3>
+        <p>
+          <br />
+          Chiya र Ma is a tea shop that only serves beverages, with an amicable
+          atmosphere to spend time with your close ones. We serve several
+          varieties of tea which will surely spice up the conversations of the
+          consumers. The delightful and unique taste will conjure an everlasting
+          impression.
+
+          <br /><br />We will keep on evolving and coming up with new varieties
+          of homemade tea. As the virtual world has created impacted personal
+          life Chiya र Ma indulges communication between people.
+        </p>
+        <button>Contact Us</button>
+      </div>
+    </section>
+
+    <section id="Menu">
+      <div class="custom-container">
+        <div class="titles" style="text-align: center">
+          <h3>
+            <span>Ch</span>iya<span> र</span> M<span>a</span> <br />
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/939/original/smalogo.jpg?1706107399"
+              style="height: 80px"
+              width="80px"
+            />
+          </h3>
+          <h4 style="font-size: 20px; margin-bottom: 25px">
+            A Love that Lasts Forever.
+          </h4>
+        </div>
+      </div>
+
+      <div class="Menu-content">
+        <div class="tab-title">
+          <ul id="myTab" class="navstyle">
+            <li>
+              <a class="active" data-toggle="tab" href="#milk">Milk Base</a>
+            </li>
+            <li>
+              <a class="tab" data-toggle="tab" href="#water">Water Base</a>
+            </li>
+            <li><a class="tab" data-toggle="tab" href="#others">Others</a></li>
+          </ul>
+        </div>
+
+        <div class="common-menu">
+          <select>
+            <option data-id="#milk">Milk Base</option>
+            <option data-id="#water">Water Base</option>
+            <option data-id="#others">Others</option>
+          </select>
+        </div>
+
+        <div id="myTabContent" class="tab-content">
+          <div
+            id="milk"
+            class="tab-pane fade active show"
+            role="tabpanel"
+            aria-labelledby="home-tab"
+          >
+            <div class="menu-container">
+              <div class="menu-item">
+                <div class="inner">
+                  <div class="title">
+                    <h5>Regular Milk Tea</h5>
+                    <h5>Rs. 20</h5>
+                  </div>
+                  <div class="content">
+                    <p></p>
+                    <p>
+                      The authentic tea experience brewed with only water, milk,
+                      sugar and tealeafs which will make you feel it homemade.
+                    </p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <div class="inner">
+                  <div class="title">
+                    <h5>Matka</h5>
+                    <h5>Rs. 40</h5>
+                  </div>
+                  <div class="content">
+                    <p></p>
+                    <p>
+                      A perfect blend of milk and authentic traditional Nepali
+                      spices makes up for a glorious cup of Matka tea.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <div class="inner">
+                  <div class="title">
+                    <h5>Masala Milk</h5>
+                    <h5>Rs. 60</h5>
+                  </div>
+                  <div class="content">
+                    <p></p>
+                    <p>
+                      An incredible original recipe which includes black and
+                      green cardamom, cloves, and nuts.
+                    </p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <div class="inner">
+                  <div class="title">
+                    <h5>Himalayan Tea</h5>
+                    <h5>Rs. 100</h5>
+                  </div>
+                  <div class="content">
+                    <p></p>
+                    <p>
+                      Tea made with rare Himalayas spices not only makes for a
+                      sense of vanity, but also makes the tea taste beautiful.
+                      These rare herbs are harvested every year.
+                    </p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            id="water"
+            class="tab-active show"
+            role="tabpanel"
+            aria-labelledby="profile-tab"
+          >
+            <div class="menu-container">
+              <div class="menu-item">
+                <div class="inner">
+                  <div class="title">
+                    <h5>Regular Black Tea</h5>
+                    <h5>Rs. 10</h5>
+                  </div>
+                  <div class="content">
+                    <p></p>
+                    <p>
+                      The authentic tea experience brewed with only water, sugar
+                      and tealeafs which tase as homemade.
+                    </p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <div class="inner">
+                  <div class="title">
+                    <h5>Hot Lemon Tea</h5>
+                    <h5>Rs. 20</h5>
+                  </div>
+                  <div class="content">
+                    <p></p>
+                    <p>
+                      Mix lemon juice with tea, and now you have a flavourful
+                      tea that looks after your health as we do.
+                    </p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="inner">
+                  <div class="title">
+                    <h5>Masala Black Tea</h5>
+                    <h5>Rs. 30</h5>
+                  </div>
+                  <div class="content">
+                    <p></p>
+                    <p>
+                      Another incredible original recipe that includes spices
+                      such as black and green cardamom, cloves, and nuts but
+                      without the milk.
+                    </p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <div class="inner">
+                  <div class="title">
+                    <h5>Flavour Tea</h5>
+                    <h5>Rs. 40</h5>
+                  </div>
+                  <div class="content">
+                    <p></p>
+                    <p>
+                      Pick a spice and we will make you tea. Spices include
+                      pepper, ginger, lemon, cinnamon and mint.
+                    </p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            id="others"
+            class="tab-active show"
+            role="tabpanel"
+            aria-labelledby="contact-tab"
+          >
+            <div class="menu-container">
+              <div class="menu-item">
+                <div class="inner">
+                  <div class="title">
+                    <h5>Lemon Iced Tea</h5>
+                    <h5>Rs. 80</h5>
+                  </div>
+                  <div class="content">
+                    <p></p>
+                    <p>
+                      With sweet citrus and zesty lemon flavors – perfect to
+                      cool down on a hot day.
+                    </p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <div class="inner">
+                  <div class="title">
+                    <h5>Masala Lemon Iced Tea</h5>
+                    <h5>Rs. 100</h5>
+                  </div>
+                  <div class="content">
+                    <p></p>
+                    <p>
+                      Special masala lemon iced tea made with another incredible
+                      original recipe.
+                    </p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <div class="inner">
+                  <div class="title">
+                    <h5>Creamy Milk Iced Tea</h5>
+                    <h5>Rs. 150</h5>
+                  </div>
+                  <div class="content">
+                    <p></p>
+                    <p>
+                      A refreshing sweet, and creamy iced tea perfect on a hot
+                      summer.
+                    </p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <div class="inner">
+                  <div class="title">
+                    <h5>Fruit Iced Tea</h5>
+                    <h5>Rs. 120</h5>
+                  </div>
+                  <div class="content">
+                    <p></p>
+                    <p>Cold brewed iced tea with fruity flavors.</p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="review">
+      <div class="review">
+        <h1>Re<span>view</span></h1>
+        <div class="container-items">
+          <div class="items">
+            <div class="item">
+              <input type="text" placeholder="Your Name" />
+            </div>
+            <div class="item">
+              <input type="text" placeholder="Your Email" />
+            </div>
+            <div class="item">
+              <textarea placeholder="Message"></textarea>
+              <a href="#" class="button"><button>send</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="row">
+        <div class="cl">
+          <div class="copyright">
+            <a class="logo-footer"><i class="fas fa-seedling"></i></a>
+            <p>Made With Love By Alisha</p>
+          </div>
+        </div>
+        <div class="cl">
+          <div class="adress">9862587365</div>
+          <div class="adress">
+            <a
+              href="mailto:alishakhatri8888@gmail.com"
+              class="email-link"
+              style="color: white"
+            >
+              alishakhatri8888@gmail.com
+            </a>
+          </div>
+
+          <div class="adress">Sankhamul, New Baneshwor</div>
+          <div class="s-m">
+            <a
+              href="https://www.facebook.com/alisha.khatri.58173/"
+              target="_blank"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/alishaaaa1920/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/alisha-khatri-3b1675220/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/alishaaaa20" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if (this.scrollY > 20) $(".navbar").addClass("sticky");
+          else $(".navbar").removeClass("sticky");
+        });
+      });
+    </script>
+  </body>
+</html>
